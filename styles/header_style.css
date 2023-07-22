@@ -1,0 +1,34 @@
+.header{
+    background-color: #EBEBE9;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 260px 10px 260px;
+}
+
+.header_navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_navigation-item {
+    padding: 11px 32px;
+}
+
+.header_navigation-link {
+    color: black;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.header_navigation-link:hover {
+    color: #FF8340;
+}
+
+.header_navigation-link:visited {
+    color: #843500;
+}
