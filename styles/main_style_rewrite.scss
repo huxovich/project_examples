@@ -68,3 +68,40 @@
     }
   }
 }
+
+@media screen and (max-width:952px) {
+  .main {
+    &__wrapper {
+      padding: 96px 0px 0px 0px;
+    }
+
+    &__title {
+      font-size: 100px;
+      line-height: 100px;
+      letter-spacing: 5px;
+      padding-left: 97px;
+      padding-bottom: 213px;
+    }
+
+    &__img {
+      width: 624px;
+      height: 572px;
+      left: -67px;
+    }
+
+    &__text {
+      padding-top: 14px;
+      padding-left: 557px;
+      
+      &-description {
+        width: 363px;
+        height: 350px;
+        line-height: 1.1;
+      }
+
+      &-link{
+        padding-top: 0px;
+      }
+    }
+  }
+}
