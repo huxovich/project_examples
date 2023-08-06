@@ -25,4 +25,39 @@
 }
 .header__navigation-link:visited {
   color: #843500;
+}
+.header__burger {
+  width: 48px;
+  height: 48px;
+  background-color: #FFF;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: none;
+}
+.header__burger-item1, .header__burger-item2, .header__burger-item3 {
+  width: 22px;
+  height: 3px;
+  background-color: black;
+}
+.header__burger-item1 {
+  margin: 12px 12px 7px 12px;
+}
+.header__burger-item2, .header__burger-item3 {
+  margin: 0px 12px 7px 12px;
+}
+
+@media screen and (max-width: 952px) {
+  .header__wrapper {
+    padding: 16px 32px 16px 32px;
+  }
+  .header__logo {
+    width: 117px;
+    height: 64px;
+  }
+  .header__navigation {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+  }
 }/*# sourceMappingURL=header_style_rewrite.css.map */

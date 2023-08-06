@@ -59,4 +59,34 @@
 }
 .main__text-link:visited {
   color: #843500;
+}
+
+@media screen and (max-width: 952px) {
+  .main__wrapper {
+    padding: 96px 0px 0px 0px;
+  }
+  .main__title {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 5px;
+    padding-left: 97px;
+    padding-bottom: 213px;
+  }
+  .main__img {
+    width: 624px;
+    height: 572px;
+    left: -67px;
+  }
+  .main__text {
+    padding-top: 14px;
+    padding-left: 557px;
+  }
+  .main__text-description {
+    width: 363px;
+    height: 350px;
+    line-height: 1.1;
+  }
+  .main__text-link {
+    padding-top: 0px;
+  }
 }/*# sourceMappingURL=main_style_rewrite.css.map */

@@ -1,0 +1,39 @@
+.some_information {
+  margin-top: 231px;
+  background-color: #292929;
+  color: #FFF;
+}
+.some_information__title {
+  font-family: Arial;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160px;
+  letter-spacing: 4px;
+  padding: 124px 0 34px 0;
+}
+.some_information__text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding-bottom: 81px;
+}
+
+@media screen and (max-width: 952px) {
+  .some_information {
+    margin-top: 0;
+  }
+  .some_information__title {
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding: 0px 32px 0px 32px;
+  }
+  .some_information__text {
+    padding: 0 32px 53px 32px;
+  }
+}/*# sourceMappingURL=some_information_style.css.map */
