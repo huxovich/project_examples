@@ -3,8 +3,10 @@
 @import url('./main_style_rewrite.css');
 @import url('./info_style.css');
 @import url('./some_information_style.css');
+@import url('./feedback_style.css');
 
 .container {
     max-width: 1400px;
     margin: 0 auto;
 }
+
