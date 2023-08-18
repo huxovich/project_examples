@@ -1,0 +1,25 @@
+.footer__navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__navigation-item {
+  padding: 57px 0 146px 0;
+}
+.footer__navigation-link {
+  color: black;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.footer__navigation-link:hover {
+  color: #FF8340;
+}
+.footer__navigation-link:visited {
+  color: #843500;
+}
+
+@media screen and (max-width: 952px) {
+  .footer__navigation {
+    padding: 0 36px 0 36px;
+  }
+}/*# sourceMappingURL=footer_style.css.map */

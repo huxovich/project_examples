@@ -1,0 +1,102 @@
+.feedback {
+  background-color: #FF8340;
+  color: #292929;
+
+  &__title {
+    font-family: Arial;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 2.25px;
+    text-align: center;
+    padding: 40px 0 35px 0;
+  }
+
+  &__stick {
+    background-color: #292929;
+    width: 64px;
+    height: 6px;
+    margin: 0 658px 45px 658px;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+  }
+
+  &__form {
+  display: grid;
+  grid-template-columns: 680px 680px;
+  gap: 40px;
+    &-input {
+      background-color: white;
+      color: #B0B0B0;
+      padding: 18px 34px 17px 34px;
+      height: 58px;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2px;
+    }
+
+    &-message {
+      width: 1400px;
+      height: 198px;
+    }
+  }
+
+  &__select{
+    background-color: #292929;
+    color: white;
+  }
+
+  &__button {
+    height: 45px;
+    padding: 11px 0px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    gap: 10px;
+    margin: 40px 0px 165px 1184px;
+  }
+}
+
+@media screen and (max-width:952px) {
+  .feedback {
+    &__form {
+      grid-template-columns: 434px 434px;
+      gap: 20px;
+    }
+
+    &__text {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    &__form {
+      padding-left: 32px;
+
+      &-message {
+        width: 888px;
+      }
+    }
+
+    &__stick {
+      margin-left: 444px;
+    }
+
+    &__button {
+      margin: 30px 32px 21px 704px;
+    }
+  }
+}
