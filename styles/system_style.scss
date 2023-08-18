@@ -1,0 +1,143 @@
+.system {
+  display: grid;
+  grid-template-columns: repeat(3, 300px) 1fr;
+
+  &__inner{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    color: #292929;
+    padding: 124px 76px 41px 260px;
+
+    &-title{
+      font-family: Arial; 
+      font-size: 80px;
+      font-weight: 900;
+      line-height: 160px;
+      letter-spacing: 4px;
+    }
+    &-text{
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__item {
+    max-width: 320px;
+    height: 466px;
+    &-img {
+      padding: 38px 112px 70px 112px;
+    }
+    &-imgth{
+      padding: 45px 123px 70px 123px;
+    }
+    &-heading{
+      padding: 0 0 52px 0;
+      color: #292929;
+      text-align: center;
+      font-family: Arial;
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    &-description {
+      padding: 0 32px 18px 32px;
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2px;
+    }
+    &-first {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    &-second {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    &-third {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+  }
+
+  &__back{
+    background: url(../imgs/backimg.png) no-repeat;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    margin-left: 6%;
+    background-size:contain;
+    background-position:center;
+  }
+
+}
+
+@media screen and (max-width:952px) {
+  .system {
+    grid-template-columns: repeat(2, 476px);
+    &__inner{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      padding: 40px 32px 32px 32px;
+      &-title{
+        font-size: 60px;
+        line-height: 79.25px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-bottom: 38px;
+      }
+    }
+
+    &__item {
+      max-width: 476px;
+      height: 434px;
+      &-img {
+        padding: 38px 192px 70px 192px;
+      }
+      &-imgth{
+        padding: 38px 439px 70px 439px;
+      }
+
+      &-headingth{
+        padding: 0 400px 52px 400px;
+      }
+  
+      &-description {
+        padding: 0 34px 58px 38px;
+        width: 404px;
+        box-sizing: content-box;
+      }
+      &-descriptionth{
+        padding: 0 32px 58px 32px;
+        width: 882px;
+      }
+      &-first {
+        grid-column: 1/2;
+        grid-row: 2/3;
+      }
+      &-second {
+        grid-column: 2/3;
+        grid-row: 2/3;
+      }
+      &-third {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        max-width:952px;
+        height: 388px;;
+      }
+    }
+
+    &__back{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      margin-left: 10%;
+    }
+  }
+}
