@@ -1,0 +1,31 @@
+.map{
+  &__title{
+    color: #292929;
+    font-family: Arial;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90px;
+    padding: 115px 0 45px 0;
+  }
+  &__img-2{
+    display: none;
+  }
+}
+
+@media screen and (max-width:952px){
+  .map{
+    &__title{
+      padding: 53px 146px 30px 32px;
+      font-size: 60px;
+    }
+
+    &__img-1{
+      display: none;
+    }
+
+    &__img-2{
+      display: block;
+    }
+  }
+}
