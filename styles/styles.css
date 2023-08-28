@@ -6,6 +6,8 @@
 @import url('./feedback_style.css');
 @import url('./system_style.css');
 @import url('./footer_style.css');
+@import url('./slider_style.css');
+@import url('./map_styles.css');
 
 .container {
     max-width: 1400px;
